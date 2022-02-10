@@ -1,0 +1,10 @@
+CREATE TABLE `user` (
+  `id` int(100) NOT NULL,
+  `idnumber` int(100) NOT NULL,
+  `firstname` varchar(200) NOT NULL,
+  `lastname` varchar(200) NOT NULL,
+  `gender` int(11) NOT NULL,
+  `bday` date NOT NULL,
+  `program` varchar(200) NOT NULL,
+  `yearlevel` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
